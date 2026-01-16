@@ -52,9 +52,9 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 ### 2.1 Discrete & Masked Diffusion
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
-| [DiffusionBERT: Improving Generative Masked Language Models](https://aclanthology.org/2023.acl-long.248.pdf) | 2022.11 | ACL | <7B, Masked |
 | [DiffusER: Discrete Diffusion via Edit-based Reconstruction](https://arxiv.org/abs/2210.16886) | 2022.10 | ICLR | <7B |
 | [SSD-LM: Semi-autoregressive Simplex-based Diffusion for Modular Control](https://aclanthology.org/2023.acl-long.647.pdf) | 2022.10 | ACL | <7B, Simplex |
+| [DiffusionBERT: Improving Generative Masked Language Models](https://aclanthology.org/2023.acl-long.248.pdf) | 2022.11 | ACL | <7B, Masked |
 | [A Reparameterized Discrete Diffusion Model for Text Generation](https://arxiv.org/abs/2302.05737) | 2023.02 | COLM | <7B |
 | [David helps Goliath: Inference-Time Collaboration Between Small and Large Diffusion LMs](https://arxiv.org/abs/2305.14771) | 2023.05 | NAACL | >7B, Scale-collaboration |
 | [TESS: Text-to-Text Self-Conditioned Simplex Diffusion](https://arxiv.org/abs/2305.08379) | 2023.05 | EACL | <7B, Simplex |
