@@ -44,6 +44,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Discrete Diffusion in Large Language and Multimodal Models: A Survey](https://arxiv.org/pdf/2506.13759) | 2025.06 | Arxiv | - |
 | [Diffusion-based Large Language Models Survey](https://www.researchgate.net/profile/Junhao-Song-3/publication/394262235) | 2025.08 | Arxiv | - |
 | [A Survey on Parallel Text Generation: From Parallel Decoding to Diffusion Language Models](https://arxiv.org/pdf/2508.08712v2) | 2025.08 | Arxiv | - |
+| [Efficient Diffusion Language Models: A Comprehensive Survey](https://github.com/FelixMessi/Awesome-Efficient-dLLMs) | 2026.01 | TechRxiv | - |
 
 ---
 
