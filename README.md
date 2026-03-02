@@ -182,6 +182,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Parallel Sampling from Masked Diffusion Models via Conditional Independence Testing](https://arxiv.org/abs/2510.21961v1) | 2025.10 | Arxiv | >7B, Unmasking |
 | [Diffusion Language Model Inference with Monte Carlo Tree Search](https://arxiv.org/abs/2512.12168v1) | 2025.12 | Arxiv | >7B, Unmasking |
 | [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](https://arxiv.org/abs/2512.21336v1) | 2025.12 | Arxiv | >7B, Unmasking |
+| [ParallelBench: Understanding the Trade-offs of Parallel Decoding in Diffusion LLMs](https://arxiv.org/abs/2510.04767) | 2025.10 | ICLR |  |
 
 ---
 
