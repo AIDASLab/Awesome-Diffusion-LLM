@@ -82,6 +82,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Variational Masked Diffusion Models](https://arxiv.org/abs/2510.23606v1) | 2025.10 | Arxiv | <7B |
 | [TiDAR: Think in Diffusion, Talk in Autoregression](https://arxiv.org/abs/2511.08923v1) | 2025.11 | Arxiv | >7B |
 | [C2DLM: Causal Concept-Guided Diffusion Large Language Models](https://arxiv.org/abs/2511.22146v1) | 2025.11 | Arxiv | >7B |
+| [Beyond Hard Masks: Progressive Token Evolution for Diffusion Language Models](https://arxiv.org/abs/2601.07351) | 2026.01 | ACL | Soft tokens, Masked |
 
 ### 2.2 Continuous & Latent Space Diffusion
 | Paper Title | Year | Venue | Remark |
@@ -182,6 +183,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Parallel Sampling from Masked Diffusion Models via Conditional Independence Testing](https://arxiv.org/abs/2510.21961v1) | 2025.10 | Arxiv | >7B, Unmasking |
 | [Diffusion Language Model Inference with Monte Carlo Tree Search](https://arxiv.org/abs/2512.12168v1) | 2025.12 | Arxiv | >7B, Unmasking |
 | [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](https://arxiv.org/abs/2512.21336v1) | 2025.12 | Arxiv | >7B, Unmasking |
+| [Efficient Self-Evaluation for Diffusion Language Models via Sequence Regeneration](https://arxiv.org/abs/2603.02760) | 2026.03 | ACL | Self-evaluation, Flexible length |
 
 ---
 
