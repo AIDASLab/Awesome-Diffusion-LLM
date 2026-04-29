@@ -58,7 +58,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Diffusion-based Large Language Models Survey](https://www.techrxiv.org/users/952417/articles/1321784-diffusion-based-large-language-models-survey) | 2025.08 | TechRxiv | - |
 | [A Survey on Parallel Text Generation: From Parallel Decoding to Diffusion Language Models](https://arxiv.org/pdf/2508.08712v2) | 2025.08 | Arxiv | - |
 | [A Survey on Diffusion Language Models](https://arxiv.org/abs/2508.10875) | 2025.08 | Arxiv | VILA-Lab; comprehensive |
-| [Efficient Diffusion Language Models: A Comprehensive Survey](https://github.com/FelixMessi/Awesome-Efficient-dLLMs) | 2026.01 | TechRxiv | Efficiency-focused |
+| [Efficient Diffusion Language Models: A Comprehensive Survey](https://www.authorea.com/users/1021451/articles/1381451-efficient-diffusion-language-models-a-comprehensive-survey) | 2026.01 |  | Efficiency-focused |
 | [Top 10 Open Challenges Steering the Future of Diffusion Language Model and Its Variants](https://arxiv.org/abs/2601.14041) | 2026.01 | Arxiv | Perspective / roadmap |
 
 ---
