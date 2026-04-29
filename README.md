@@ -45,7 +45,6 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 - [Mercury (Inception Labs)](https://www.inceptionlabs.ai/blog/introducing-mercury)
 - [Dream-7B](https://hkunlp.github.io/blog/2025/dream/)
 - [DreamOn](https://hkunlp.github.io/blog/2025/dreamon/)
-- [Discrete Diffusion Forcing (D2F)](https://zhijie-group.github.io/Discrete-Diffusion-Forcing/)
 - [LLaDA2.X (InclusionAI / Ant Group)](https://github.com/inclusionAI/LLaDA2.X)
 - [What are Diffusion Language Models? (Lilian Weng)](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 - [Generative Modeling by Estimating Gradients (Yang Song)](https://yang-song.net/blog/2021/score/)
