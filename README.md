@@ -101,6 +101,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [DiffuMamba: High-Throughput Diffusion LMs with Mamba Backbone](https://arxiv.org/abs/2511.15927) | 2025.11 | Arxiv | Non-Transformer Backbone |
 | [TiDAR: Think in Diffusion, Talk in Autoregression](https://arxiv.org/abs/2511.08923v1) | 2025.11 | Arxiv | >7B |
 | [C2DLM: Causal Concept-Guided Diffusion Large Language Models](https://arxiv.org/abs/2511.22146v1) | 2025.11 | Arxiv | >7B |
+| [Beyond Hard Masks: Progressive Token Evolution for Diffusion Language Models](https://arxiv.org/abs/2601.07351) | 2026.01 | ACL | Soft tokens, Masked |
 | [LLaDA2.0: Scaling Up Diffusion Language Models to 100B](https://arxiv.org/abs/2512.15745v1) | 2025.12 | Arxiv | >100B, MoE; Ant Group |
 | [LLaDA2.1: Speeding Up Text Diffusion via Token Editing](https://arxiv.org/abs/2602.08676) | 2026.02 | Arxiv | Editable State Evolution |
 | [Introspective Diffusion Language Models (I-DLM)](https://arxiv.org/abs/2604.11035) | 2026.04 | Arxiv | Introspective consistency |
@@ -224,6 +225,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Diffusion Language Model Inference with Monte Carlo Tree Search](https://arxiv.org/abs/2512.12168v1) | 2025.12 | Arxiv | >7B, MCTS |
 | [Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty](https://arxiv.org/abs/2512.21336v1) | 2025.12 | Arxiv | >7B, Unmasking |
 | [Adaptation to Intrinsic Dependence in Diffusion Language Models](https://arxiv.org/abs/2602.20126) | 2026.02 | Arxiv | Distribution-agnostic schedule |
+| [Efficient Self-Evaluation for Diffusion Language Models via Sequence Regeneration](https://arxiv.org/abs/2603.02760) | 2026.03 | ACL | Self-evaluation, Flexible length |
 | [D5P4: Partition Determinantal Point Process for Diversity in Parallel Discrete Diffusion Decoding](https://arxiv.org/abs/2603.19146) | 2026.03 | Arxiv | Diversity-aware decoding |
 
 ---
@@ -393,6 +395,9 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Why mask diffusion does not work](https://arxiv.org/pdf/2510.03289) | 2025.10 | Arxiv | Failure analysis |
 | [Empirical Analysis of Decoding Biases in Masked Diffusion Models](https://arxiv.org/abs/2508.13021v3) | 2025.10 | Arxiv | Decoding Bias |
 | [Beyond Next-Token Prediction: A Performance Characterization of Diffusion versus Autoregressive Language Models](https://arxiv.org/abs/2510.04146v1) | 2025.10 | Arxiv | Speed Analysis |
+| [On the Role of Discreteness in Diffusion LLMs](https://arxiv.org/abs/2512.22630v1) | 2025.12 | Arxiv | Speed Analysis |
+| [ParallelBench: Understanding the Trade-offs of Parallel Decoding in Diffusion LLMs](https://arxiv.org/abs/2510.04767) | 2025.10 | ICLR |  |
+| [Efficient Self-Evaluation for Diffusion Language Models via Sequence Regeneration](https://arxiv.org/abs/2603.02760) | 2026.03 | ACL | Self-evaluation, Generalization analysis |
 | [On the Role of Discreteness in Diffusion LLMs](https://arxiv.org/abs/2512.22630v1) | 2025.12 | Arxiv | Discreteness analysis |
 | [ParallelBench: Understanding the Trade-offs of Parallel Decoding in Diffusion LLMs](https://arxiv.org/abs/2510.04767) | 2025.10 | ICLR | Benchmark |
 | [Diffusion Language Models are Super Data Learners](https://arxiv.org/abs/2511.03276) | 2025.11 | Arxiv | Data learner analysis |
