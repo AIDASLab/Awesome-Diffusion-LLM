@@ -46,6 +46,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 - [Dream-7B](https://hkunlp.github.io/blog/2025/dream/)
 - [DreamOn](https://hkunlp.github.io/blog/2025/dreamon/)
 - [LLaDA2.X (InclusionAI / Ant Group)](https://github.com/inclusionAI/LLaDA2.X)
+- [W1-4B-dLLM (Whaletech AI)](https://huggingface.co/WhaletechAI/W1-4B-dLLM-Base) ([Demo](https://vibe.whaletech.ai/))
 - [What are Diffusion Language Models? (Lilian Weng)](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 - [Generative Modeling by Estimating Gradients (Yang Song)](https://yang-song.net/blog/2021/score/)
 
@@ -104,6 +105,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [LLaDA2.0: Scaling Up Diffusion Language Models to 100B](https://arxiv.org/abs/2512.15745v1) | 2025.12 | Arxiv | >100B, MoE; Ant Group |
 | [LLaDA2.1: Speeding Up Text Diffusion via Token Editing](https://arxiv.org/abs/2602.08676) | 2026.02 | Arxiv | Editable State Evolution |
 | [Introspective Diffusion Language Models (I-DLM)](https://arxiv.org/abs/2604.11035) | 2026.04 | Arxiv | Introspective consistency |
+| [W1-4B-dLLM (WhaletechAI)](https://huggingface.co/WhaletechAI/W1-4B-dLLM-Base) | 2026.04 | HF Model | 4B open dLLM; [demo](https://vibe.whaletech.ai/) |
 
 ### 2.2 Continuous & Latent Space Diffusion
 | Paper Title | Year | Venue | Remark |
