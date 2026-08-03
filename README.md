@@ -485,6 +485,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Language Diffusion Models are Associative Memories Capable of Retrieving Unseen Data](https://arxiv.org/abs/2604.26841) | 2026.04 | Arxiv | Associative memory theory |
 | [Understanding and Accelerating the Training of Masked Diffusion Language Models](https://arxiv.org/abs/2605.13026) | 2026.05 | Arxiv | Bell-shaped time sampling, training speed |
 | [Uncertainty Quantification for Large Language Diffusion Models](https://arxiv.org/abs/2605.14570) | 2026.05 | Arxiv | UQ, hallucination detection for dLLMs |
+| [Where Quality Breaks in Compressed Short-Text Generation: Staged Bottleneck Localization](https://arxiv.org/abs/2607.24176) | 2026.07 | FRUCT | Staged codec-vs-generation bottleneck diagnosis; [project](https://aogavrilov.com/publications/where-quality-breaks/) |
 
 ### 8.2 Guidance & Downstream Applications
 | Paper Title | Year | Venue | Remark |
