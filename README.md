@@ -562,3 +562,5 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 ## 🤝 Contact
 * Maintainers: jake630@snu.ac.kr / wjk9904@snu.ac.kr 
 * Contributions via Pull Requests are welcome!
+
+- **Fast-dLLM++: Fréchet Profile Decoding for Faster Diffusion LLM Inference** (2026) [[arXiv](https://arxiv.org/abs/2606.02955)] [[Code](https://github.com/Ringo-Star/FastdLLM_plusplus)] [[Project Page](https://ringo-star.github.io/projectpage_frechet/)]
