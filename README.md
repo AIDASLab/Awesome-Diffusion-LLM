@@ -293,7 +293,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [EntropyCache: Decoded Token Entropy Guided KV Caching for Diffusion Language Models](https://arxiv.org/abs/2603.18489) | 2026.03 | Arxiv | Entropy-guided KV cache refresh |
 | [LoSA: Locality Aware Sparse Attention for Block-Wise Diffusion Language Models](https://arxiv.org/abs/2604.12056) | 2026.04 | Arxiv | Locality-aware sparse KV, block dLLM |
 | [PulseCol: Periodically Refreshed Column-Sparse Attention for Accelerating Diffusion Language Models](https://arxiv.org/abs/2605.20813) | 2026.05 | Arxiv | Column-sparse attention, periodic refresh |
-
+| [Fast-dLLM++: Fréchet Profile Decoding for Faster Diffusion LLM Inference](https://arxiv.org/abs/2606.02955)| 2026.06 | Arxiv |  |
 ### 5.2 Decoding & Sampling
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
@@ -563,4 +563,3 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 * Maintainers: jake630@snu.ac.kr / wjk9904@snu.ac.kr 
 * Contributions via Pull Requests are welcome!
 
-- **Fast-dLLM++: Fréchet Profile Decoding for Faster Diffusion LLM Inference** (2026) [[arXiv](https://arxiv.org/abs/2606.02955)] [[Code](https://github.com/Ringo-Star/FastdLLM_plusplus)] [[Project Page](https://ringo-star.github.io/projectpage_frechet/)]
