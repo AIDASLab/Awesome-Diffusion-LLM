@@ -197,6 +197,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Diffusion LLMs can think EoS-by-EoS](https://arxiv.org/abs/2603.05197) | 2026.03 | Arxiv | EoS-guided reasoning via padding |
 | [LogicDiff: Logic-Guided Denoising Improves Reasoning in Masked Diffusion Language Models](https://arxiv.org/abs/2603.26771) | 2026.03 | Arxiv | Logic-guided unmasking order |
 | [Learnability-Informed Fine-Tuning of Diffusion Language Models](https://arxiv.org/abs/2605.22939) | 2026.05 | Arxiv | LIFT, SFT with learnability schedule |
+| [d-OPSD: On-Policy Self-Distillation for Diffusion Language Models](https://arxiv.org/abs/2606.18195) | 2026.06 | Arxiv | On-policy self-distillation, [Code](https://github.com/xingzhejun/d-opsd-code) |
 
 ### 3.2 Alignment & Reinforcement Learning
 | Paper Title | Year | Venue | Remark |
@@ -562,4 +563,3 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 ## 🤝 Contact
 * Maintainers: jake630@snu.ac.kr / wjk9904@snu.ac.kr 
 * Contributions via Pull Requests are welcome!
-
