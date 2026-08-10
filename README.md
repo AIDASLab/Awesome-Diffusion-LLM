@@ -49,6 +49,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 - [W1-4B-dLLM (Whaletech AI)](https://huggingface.co/WhaletechAI/W1-4B-dLLM-Base) ([Demo](https://vibe.whaletech.ai/))
 - [What are Diffusion Language Models? (Lilian Weng)](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 - [Generative Modeling by Estimating Gradients (Yang Song)](https://yang-song.net/blog/2021/score/)
+- [DiffusionGemma Explained (ML@Berkeley)](https://mlberkeley.substack.com/p/the-annotated-diffusiongemma)
 
 ### 📝 Survey & Perspective Papers
 | Paper Title | Year | Venue | Remark |
