@@ -269,6 +269,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Remask, Don't Replace: Token-to-Mask Refinement in Masked Diffusion Language Models](https://arxiv.org/abs/2604.18738) | 2026.04 | Arxiv | T2M refinement, LLaDA2.1 analysis |
 | [Edit-Based Refinement for Parallel Masked Diffusion Language Models](https://arxiv.org/abs/2605.09603) | 2026.05 | Arxiv | ME-DLM, edit-based post-correction |
 | [When Confidence Misleads: Suffix Anchoring and Anchor-Proximity Confidence Modulation for Diffusion Language Models](https://arxiv.org/abs/2605.28181) | 2026.05 | Arxiv | Suffix anchor, confidence modulation |
+| [Context-Aware Cluster Decoding: Semantic Anchor-Driven Coherence in dMLLMs](https://arxiv.org/abs/2608.22367) | 2026.08 | EMNLP | dMLLM, Context-aware token ordering, [Code](https://github.com/zhaoyk-sysu/CACD-dMLLM) |
 
 ---
 
