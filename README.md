@@ -197,7 +197,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Multi-Block Diffusion Language Models](https://arxiv.org/abs/2606.29215) | 2026.06 | Arxiv | Block diffusion |
 | [Adaptive Block Diffusion: Resolving Training-Inference Mismatch in Diffusion Language Models](https://arxiv.org/abs/2606.29275) | 2026.06 | Arxiv | Block diffusion |
 | [Beyond Block Boundaries: Multi-Block Editing for Diffusion Large Language Models](https://arxiv.org/abs/2607.22663) | 2026.06 | Arxiv | Training-free, KV cache |
-| [Set Diffusion: Interpolating Token Orderings Between Autoregression and Diffusion for Fast and Flexible Decoding](https://arxiv.org/abs/2607.01775) | 2026.07 | Arxiv | KV cache, Block diffusion; **verify ICML** |
+| [Set Diffusion: Interpolating Token Orderings Between Autoregression and Diffusion for Fast and Flexible Decoding](https://arxiv.org/abs/2607.01775) | 2026.07 | ICML | KV cache, Block diffusion |
 | [Training Hybrid Block Diffusion Language Models with Partial Bidirectionality](https://arxiv.org/abs/2607.02805) | 2026.07 | Arxiv | Block diffusion, Serving |
 | [Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding](https://arxiv.org/abs/2607.05722) | 2026.07 | Arxiv | Serving |
 
@@ -322,7 +322,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [TACG: Trajectory-Aware Commit Gating for Diffusion Language Model Decoding](https://arxiv.org/abs/2607.03236) | 2026.07 | Arxiv | Training-free |
 | [Don't Commit Alone: Joint Token Commitment in Diffusion Language Models](https://arxiv.org/abs/2607.04469) | 2026.07 | Arxiv | Joint Token Commitment in Diffusion Language |
 | [Reinforcing the Generation Order of Multimodal Masked Diffusion Models](https://arxiv.org/abs/2607.08056) | 2026.07 | Arxiv | RL, dMLLM |
-| [ST-Veto: Spatio-Temporal Token Veto for Diffusion MLLMs via Taylor Prediction and Visual Grounding](https://arxiv.org/abs/2607.17884) | 2026.07 | Arxiv | Training-free, Unmasking order; **verify ICML** |
+| [ST-Veto: Spatio-Temporal Token Veto for Diffusion MLLMs via Taylor Prediction and Visual Grounding](https://arxiv.org/abs/2607.17884) | 2026.07 | ICML | Training-free, Unmasking order |
 | [Rethinking the Generation Order of Block Diffusion Language Models](https://arxiv.org/abs/2607.24306) | 2026.07 | Arxiv | Training-free, Unmasking order |
 | [Commit Locally, Exit Globally: Coordinating Adaptive Sampling and Early Exit in Diffusion Language Models](https://arxiv.org/abs/2607.28166) | 2026.07 | Arxiv | Coordinating Adaptive Sampling and Early Exit |
 | [Context-Aware Cluster Decoding: Semantic Anchor-Driven Coherence in dMLLMs](https://arxiv.org/abs/2608.22367) | 2026.08 | EMNLP | dMLLM, Context-aware token ordering, [Code](https://github.com/zhaoyk-sysu/CACD-dMLLM) |
@@ -410,7 +410,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [DFlare: Scaling Up Draft Capacity for Block Diffusion Speculative Decoding](https://arxiv.org/abs/2606.02091) | 2026.06 | Arxiv | Speculative decoding, Block diffusion |
 | [SimSD: Simple Speculative Decoding in Diffusion Language Models](https://arxiv.org/abs/2606.02544) | 2026.06 | Arxiv | Training-free, KV cache |
 | [SAID: Accelerating Diffusion-Based Language Models via Scaffold-Aware Iterative Decoding](https://arxiv.org/abs/2606.04974) | 2026.06 | Arxiv | Block diffusion |
-| [Diffusion Language Model Parallel Decoding via Product-of-Experts Bridge](https://arxiv.org/abs/2606.08048) | 2026.06 | Arxiv | **verify ICML** |
+| [Diffusion Language Model Parallel Decoding via Product-of-Experts Bridge](https://arxiv.org/abs/2606.08048) | 2026.06 | ICML | - |
 | [AsyncLane: Decoupling Refinement from Advancement in Diffusion Language Model Decoding](https://arxiv.org/abs/2606.08411) | 2026.06 | Arxiv | Training-free, Block diffusion |
 | [Unified Energy for Invariant and Independent Decoding in Diffusion Language Models](https://arxiv.org/abs/2606.09159) | 2026.06 | Arxiv | - |
 | [Attention-Discounted Adaptive Sampler for Masked Diffusion Language Models](https://arxiv.org/abs/2606.10829) | 2026.06 | Arxiv | Training-free |
@@ -440,11 +440,11 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [CAI-DLLM: Convergence Aware Inference for Diffusion Language Models](https://arxiv.org/abs/2608.22646) | 2026.08 | Arxiv | Training-free, Long context |
 | [Accelerating Diffusion Language Models via Structured Suffix Modeling](https://arxiv.org/abs/2608.23167) | 2026.08 | Arxiv | Training-free, KV cache |
 | [Prefix-Denoising Consistency: Test-Time Verification for Diffusion Language Models](https://arxiv.org/abs/2608.25311) | 2026.08 | Arxiv | Unmasking order |
-| [Survival-Guided Length Control for Efficient Diffusion Language Models](https://arxiv.org/abs/2608.26374) | 2026.08 | Arxiv | Training-free; **verify EMNLP** |
+| [Survival-Guided Length Control for Efficient Diffusion Language Models](https://arxiv.org/abs/2608.26374) | 2026.08 | EMNLP | Training-free |
 | [Trajectory-Level Speculative Decoding for Diffusion Language Models](https://arxiv.org/abs/2608.27514) | 2026.08 | Arxiv | Speculative decoding, Unmasking order |
 | [ReTrace: Rejected-Trajectory Conditioning for Speculative Decoding](https://arxiv.org/abs/2608.29748) | 2026.08 | Arxiv | Speculative decoding, Code |
 | [Ceiling-Clipped Acceptance Histograms Indicate Stranded Speed-up in Block-Diffusion Speculative Decoding](https://arxiv.org/abs/2608.30427) | 2026.08 | Arxiv | Speculative decoding |
-| [CARVE: Verified Expansion for Variable-Length Generation in Diffusion Language Models](https://arxiv.org/abs/2608.30922) | 2026.08 | Arxiv | Training-free, Block diffusion; **verify EMNLP Findings** |
+| [CARVE: Verified Expansion for Variable-Length Generation in Diffusion Language Models](https://arxiv.org/abs/2608.30922) | 2026.08 | EMNLP Findings | Training-free, Block diffusion |
 
 ### 5.3 Distillation, Quantization & Sparsity
 | Paper Title | Year | Venue | Remark |
@@ -684,7 +684,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [MaskForge: Structure-Aware Adaptive Attacks for Jailbreaking Diffusion Large Language Models](https://arxiv.org/abs/2606.04027) | 2026.06 | Arxiv | Safety attack |
 | [Global Sketch-Based Watermarking for Diffusion Language Models](https://arxiv.org/abs/2606.04486) | 2026.06 | Arxiv | Watermarking |
 | [Dynamic Infilling Anchors for Format-Constrained Generation in Diffusion Large Language Models](https://arxiv.org/abs/2606.04535) | 2026.06 | ACL | Training-free |
-| [Self-Augmenting Retrieval for Diffusion Language Models](https://arxiv.org/abs/2606.06474) | 2026.06 | Arxiv | Training-free, Serving; **verify ICML** |
+| [Self-Augmenting Retrieval for Diffusion Language Models](https://arxiv.org/abs/2606.06474) | 2026.06 | ICML | Training-free, Serving |
 | [TimpaTeks: Automatic In-place Text Sequence Modification via Diffusion Language Model Steering](https://arxiv.org/abs/2606.08408) | 2026.06 | Arxiv | Automatic In-place Text Sequence Modification via |
 | [Detect, Remask, Repair: Diffusion Editing for Faithful Summarization of Evolving Contexts](https://arxiv.org/abs/2606.12807) | 2026.06 | Arxiv | Few-step, Remasking |
 | [TimeROME-DLM: Temporal Causal Tracing and Low-Rank Inference-Time Knowledge Editing for Masked Diffusion Language Models](https://arxiv.org/abs/2606.12841) | 2026.06 | Arxiv | MoE, Training-free |
