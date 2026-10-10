@@ -5,7 +5,7 @@
 
 A comprehensive and structured list of research papers about **Large-Language-Diffusion-Models (dLLMs)**.
 
-> Last major update: September 2026 — added 169 new papers from Jun–Aug 2026.
+> Last major update: October 2026 — added 176 papers through Oct 10 (152 Sep–Oct, 24 backfills), updated six venues, and added §5.5 Speculative Decoding & Draft Verification.
 
 ---
 
@@ -26,6 +26,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
     - [Decoding & Sampling](#52-decoding--sampling)
     - [Distillation, Quantization & Sparsity](#53-distillation-quantization--sparsity)
     - [Inference Frameworks & Systems](#54-inference-frameworks--systems)
+    - [Speculative Decoding & Draft Verification](#55-speculative-decoding--draft-verification)
 6. [**Multi-modal & Physical AI**](#6-multi-modal--physical-ai)
     - [Multi-modal dLLMs](#61-multi-modal-dllms)
     - [Vision-Language-Action (VLA)](#62-vision-language-action-vla)
@@ -63,8 +64,11 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Efficient Diffusion Language Models: A Comprehensive Survey](https://www.authorea.com/users/1021451/articles/1381451-efficient-diffusion-language-models-a-comprehensive-survey) | 2026.01 |  | Efficiency-focused |
 | [Top 10 Open Challenges Steering the Future of Diffusion Language Model and Its Variants](https://arxiv.org/abs/2601.14041) | 2026.01 | Arxiv | Perspective / roadmap |
 | [A Tutorial on Diffusion Theory: From Differential Equations to Diffusion Models](https://arxiv.org/abs/2605.22586) | 2026.05 | Arxiv | Tutorial, Diffusion theory |
-| [Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques](https://arxiv.org/abs/2607.12829) | 2026.07 | Arxiv | A Survey of Efficient Inference Techniques |
+| [Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques](https://arxiv.org/abs/2607.12829) | 2026.07 | IJCAI | A Survey of Efficient Inference Techniques |
+| [Discrete Diffusion Models: A Unified Framework from Tokenization to Generation](https://arxiv.org/abs/2607.13431) | 2026.07 | Arxiv | Backfill, Discrete diffusion survey |
 | [Is Multimodal Speculative Decoding Ready for Diffusion-Based Parallel Drafting? A Survey and Empirical Diagnosis](https://arxiv.org/abs/2608.20743) | 2026.08 | Arxiv | Speculative decoding, Summarization |
+| [Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges](https://arxiv.org/abs/2609.04778) | 2026.09 | Arxiv | Survey, Mobile agents |
+| [Self-Orchestrating Language Models: Leveraging Semantic Dependence for Efficient Inference](https://arxiv.org/abs/2609.14850) | 2026.09 | Arxiv | Thesis, Generation strategies |
 
 ---
 
@@ -131,6 +135,20 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [MDLMPE: Distribution Aware Positional Encoding for Masked Diffusion Language Models](https://arxiv.org/abs/2608.03769) | 2026.08 | Arxiv | Distribution Aware Positional Encoding for Masked |
 | [Retrofitting Linear Attention into Diffusion Language Models](https://arxiv.org/abs/2608.06628) | 2026.08 | Arxiv | Block diffusion, Serving |
 | [Reducing Pretraining-Generation Mismatch in Diffusion Language Models](https://arxiv.org/abs/2608.09424) | 2026.08 | Arxiv | - |
+| [A Ticket from Marginals to Joints: Coupled-Noise Distillation for One-Step Block Generation in Diffusion Language Models](https://arxiv.org/abs/2609.06324) | 2026.09 | Arxiv | Coupled-noise training |
+| [Representation-based Masked Diffusion Model](https://arxiv.org/abs/2609.12382) | 2026.09 | Arxiv | Conditional masked modeling |
+| [DA-DLM: Explicitly Modeling Token Dependencies in Diffusion Language Models](https://arxiv.org/abs/2609.15070) | 2026.09 | Arxiv | DAG architecture |
+| [Register Tokens for Bounded-State Reasoning in Diffusion Language Models](https://arxiv.org/abs/2609.16372) | 2026.09 | Arxiv | Register tokens, Bounded state |
+| [Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models](https://arxiv.org/abs/2609.24657) | 2026.09 | Arxiv | Quantum residual architecture |
+| [Less Uniform Discrete Diffusion is More Powerful and Scalable](https://arxiv.org/abs/2609.35817) | 2026.09 | Arxiv | Uniform diffusion objective |
+| [Learning to Re-Draft: A Variational Stackelberg Game for Discrete Diffusion](https://arxiv.org/abs/2609.35166) | 2026.09 | Arxiv | Learned corruption objective |
+| [E-MoE: Enhanced Mixture-of-Experts for Non-Factorized Diffusion Language Models](https://arxiv.org/abs/2609.37533) | 2026.09 | Arxiv | Non-factorized reverse model |
+| [Time-Anchored Diffusion Language Models: Latent-Space Caching for Fast Generation](https://arxiv.org/abs/2609.37924) | 2026.09 | Arxiv | Anchor-denoiser architecture |
+| [On Trajectory-Aware Training for Masked Diffusion Language Models](https://arxiv.org/abs/2609.37974) | 2026.09 | Arxiv | Differentiable diffusion training |
+| [Alpha Diffusion Language Models: Factorization Alone Is Not the Problem](https://arxiv.org/abs/2609.38066) | 2026.09 | Arxiv | Sequence-level training loss |
+| [Acceleration of Diffusion Language Model through Discrete Average Generator](https://arxiv.org/abs/2609.38364) | 2026.09 | Arxiv | CTMC training objective |
+| [Know When to Hold 'em: Correct-Token Retention in Uniform-State Diffusion Language Models](https://arxiv.org/abs/2610.01275) | 2026.10 | Arxiv | Correct-token retention loss |
+| [ALoDLM: Adaptively Looped Diffusion Language Models](https://arxiv.org/abs/2610.04198) | 2026.10 | Arxiv | Adaptive recurrent architecture |
 
 ### 2.2 Continuous & Latent Space Diffusion
 | Paper Title | Year | Venue | Remark |
@@ -157,6 +175,18 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Language Generation as Optimal Control: Closed-Loop Diffusion in Latent Control Space](https://arxiv.org/abs/2605.14531) | 2026.05 | Arxiv | HJB-based latent optimal control |
 | [Continuous Diffusion Scales Competitively with Discrete Diffusion for Language](https://arxiv.org/abs/2605.18530) | 2026.05 | Arxiv | RePlaid scaling law, continuous vs discrete |
 | [Simplex Relaxation for Discrete Diffusion](https://arxiv.org/abs/2608.10615) | 2026.08 | Arxiv | - |
+| [AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling](https://arxiv.org/abs/2608.02602) | 2026.08 | Arxiv | Continuous text latents, Ascend |
+| [Repurposing Pre-trained LLMs as High Fidelity Continuous Text Autoencoders](https://arxiv.org/abs/2609.27248) | 2026.09 | Arxiv | Continuous text autoencoder |
+| [ELF-REG: Scaling Continuous Diffusion Language Models to Reasoning Tasks](https://arxiv.org/abs/2609.29102) | 2026.09 | Arxiv | Continuous representations |
+| [One Latent, Many Tokens: Jointly Learning Compressed Embeddings for Efficient Language Diffusion](https://arxiv.org/abs/2609.33698) | 2026.09 | Arxiv | Compressed continuous latents |
+| [Simplex Diffusion Models](https://arxiv.org/abs/2609.35553) | 2026.09 | Arxiv | Simplex continuous diffusion |
+| [Clock Diffusion: Efficient Semi-Autoregressive Continuous Diffusion Language Models](https://arxiv.org/abs/2610.00894) | 2026.10 | Arxiv | Continuous, Sliding-window model |
+| [Scaling and Distilling Text Embeddings for Better Diffusibility](https://arxiv.org/abs/2610.01016) | 2026.10 | Arxiv | Text embedding geometry |
+| [Hierarchical Continuous Diffusion Language Models](https://arxiv.org/abs/2610.02193) | 2026.10 | Arxiv | Hierarchical continuous states |
+| [Large Language Continuous Diffusion Models](https://arxiv.org/abs/2610.02665) | 2026.10 | Arxiv | Continuous, Sigma |
+| [Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling](https://arxiv.org/abs/2610.08738) | 2026.10 | Arxiv | Hierarchical continuous representations |
+| [Noise Your Prompt: Noising Conditioning Tokens in Continuous Diffusion Language Models](https://arxiv.org/abs/2610.09145) | 2026.10 | TMLR | Prompt-noising objective |
+| [Denoising Blocks, Not Tokens: Efficient Compressed Continuous Diffusion with Branching Token Realization](https://arxiv.org/abs/2610.09311) | 2026.10 | Arxiv | Compressed block latents |
 
 ### 2.3 AR-to-Diffusion Adaptation
 | Paper Title | Year | Venue | Remark |
@@ -172,6 +202,10 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation](https://arxiv.org/abs/2606.06712) | 2026.06 | Arxiv | Distillation |
 | [Nemotron-Labs-TwoTower: Diffusion Language Modeling with Pretrained Autoregressive Context](https://arxiv.org/abs/2606.26493) | 2026.06 | Arxiv | MoE, Block diffusion |
 | [UNIFUSION: Adapting Autoregressive Language Models into Discrete Diffusion under a Unified Reverse-Rate Objective](https://arxiv.org/abs/2607.24507) | 2026.07 | Arxiv | Adapting Autoregressive Language Models into Discrete |
+| [dQwen3.5: Hybrid-Attention Diffusion Language Models](https://arxiv.org/abs/2609.20751) | 2026.09 | Arxiv | AR-to-Diffusion, Qwen |
+| [DreamingGoose: Staged Distillation from Autoregressive Transformers to Bidirectional Recurrent Diffusion Language Models](https://arxiv.org/abs/2609.34253) | 2026.09 | Arxiv | AR conversion, Recurrence |
+| [d-OPD: Future-Aware On-Policy Distillation for Block Diffusion Language Models](https://arxiv.org/abs/2609.35362) | 2026.09 | Arxiv | AR-to-block-diffusion distillation |
+| [Context-Tower Conversion Preserves Generation While Freezing Retains Knowledge: Low-Budget AR-to-Diffusion Conversion of MoE LLMs](https://arxiv.org/abs/2610.02657) | 2026.10 | Arxiv | Low-budget AR conversion |
 
 ### 2.4 Hybrid AR-Diffusion (Block / Forcing)
 > A new section: hybrids that interleave block-level AR with intra-block diffusion, or "forcing" approaches that retain causal masks for KV-cache reuse.
@@ -200,6 +234,9 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Set Diffusion: Interpolating Token Orderings Between Autoregression and Diffusion for Fast and Flexible Decoding](https://arxiv.org/abs/2607.01775) | 2026.07 | ICML | KV cache, Block diffusion |
 | [Training Hybrid Block Diffusion Language Models with Partial Bidirectionality](https://arxiv.org/abs/2607.02805) | 2026.07 | Arxiv | Block diffusion, Serving |
 | [Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding](https://arxiv.org/abs/2607.05722) | 2026.07 | Arxiv | Serving |
+| [Unlocking Lossless Speedups in LLMs via Discrete Diffusion](https://arxiv.org/abs/2609.04010) | 2026.09 | Arxiv | Hybrid AR-Diffusion |
+| [Fixed State, Long Reach: What a Constant-Size Cache Buys Block Diffusion at Scale](https://arxiv.org/abs/2609.11998) | 2026.09 | Arxiv | Block diffusion, Recurrent state |
+| [Zarya: A Hybrid Autoregressive--Masked Diffusion Language Model with Flexible Training and Dual-Mode Inference](https://arxiv.org/abs/2609.19868) | 2026.09 | Arxiv | Hybrid AR-Diffusion |
 
 ---
 
@@ -235,6 +272,11 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Escaping Confidence Trap: Evolutionary Decoding for Mathematical Reasoning in Diffusion LLMs](https://arxiv.org/abs/2608.00605) | 2026.08 | Arxiv | Training-free, Unmasking order |
 | [Semantic Reasoning Denoising: Correcting Language Model Reasoning with Semantic Operators](https://arxiv.org/abs/2608.22090) | 2026.08 | Arxiv | Correcting Language Model Reasoning with Semantic |
 | [DCGC: Draft-Conditioned Global Correction for Complex Reasoning with Masked Diffusion Models](https://arxiv.org/abs/2608.25428) | 2026.08 | Arxiv | Draft-Conditioned Global Correction for Complex Reasoning |
+| [CaLR: Causal Latent Revision for Robust Diffusion Reasoning](https://arxiv.org/abs/2609.20981) | 2026.09 | Arxiv | Latent reasoning search |
+| [LOCKR: A Hidden-State Trajectory-Guided Planner for Detecting and Repairing Stable-but-Wrong Lock-In in Diffusion Language Models](https://arxiv.org/abs/2609.27220) | 2026.09 | Arxiv | Planning, Test-time repair |
+| [Towards Efficient Reasoning: Learning Causal Shortcuts for Diffusion Language Models](https://arxiv.org/abs/2609.28272) | 2026.09 | Arxiv | Reasoning curriculum |
+| [Reasoning with Continuous Latent Diffusion](https://arxiv.org/abs/2609.35694) | 2026.09 | Arxiv | Continuous diffusion reasoning |
+| [Blackboard Intelligence Can Surpass Autoregressive on Globally Constrained Problems](https://arxiv.org/abs/2609.38806) | 2026.09 | Arxiv | Globally constrained search |
 
 ### 3.2 Alignment & Reinforcement Learning
 | Paper Title | Year | Venue | Remark |
@@ -276,12 +318,25 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Adaptive Steering and Remasking for Safe Generation in Diffusion Language Models](https://arxiv.org/abs/2605.13043) | 2026.05 | Arxiv | Safety, contrastive steering |
 | [Beyond Mode-Seeking RL: Trajectory-Balance Post-Training for Diffusion Language Models](https://arxiv.org/abs/2605.13935) | 2026.05 | Arxiv | TraFL, trajectory-balance objective |
 | [Read the Trace, Steer the Path: Trajectory-Aware Reinforcement Learning for Diffusion Language Models](https://arxiv.org/abs/2606.04396) | 2026.06 | Arxiv | MoE, Unmasking order |
-| [Back on Track: Aligning Rewards and States for Reasoning in Diffusion Large Language Models](https://arxiv.org/abs/2606.08501) | 2026.06 | Arxiv | RL |
+| [Back on Track: Aligning Rewards and States for Reasoning in Diffusion Large Language Models](https://arxiv.org/abs/2606.08501) | 2026.06 | EMNLP | RL |
 | [A2D2: Fine-Tuning Any-Length Discrete Diffusion for Adaptive Decoding](https://arxiv.org/abs/2606.13565) | 2026.06 | Arxiv | Unmasking order |
 | [SLIM-RL: Risk-Budgeted Random-Masking RL for Diffusion LLMs Without Trajectory Slicing](https://arxiv.org/abs/2607.00208) | 2026.06 | Arxiv | Training-free, RL |
+| [dVLA-RL: Reinforcement Learning over Denoising Trajectories for Discrete Diffusion Vision-Language-Action Models](https://arxiv.org/abs/2606.23623) | 2026.06 | Arxiv | Backfill, VLA trajectory-level RL |
 | [A Continuous-Time Reinforcement Learning Framework for Fine-Tuning Discrete Diffusion Models](https://arxiv.org/abs/2607.14522) | 2026.07 | Arxiv | RL |
 | [Mask-Aware Policy Gradients for Diffusion Language Models](https://arxiv.org/abs/2607.15200) | 2026.07 | COLM | Remasking, Unmasking order |
 | [Beyond On-Policy Exploration: Integrating External Policy Rollouts for Reinforcement Learning in Diffusion Language Models](https://arxiv.org/abs/2608.01717) | 2026.08 | Arxiv | RL |
+| [CanvasAnneal: Curriculum Reinforcement Learning for Diffusion Language Models](https://arxiv.org/abs/2609.13060) | 2026.09 | Arxiv | RL curriculum |
+| [Informed Masking: Structure-Aware Perturbation for Reinforcement Learning in Diffusion Large Language Models](https://arxiv.org/abs/2609.25927) | 2026.09 | Arxiv | RL, Informed masking |
+| [ForkLeft: Entropy-First Rollouts for Prefix-Aligned Autoregressive-to-Diffusion Distillation](https://arxiv.org/abs/2609.32448) | 2026.09 | Arxiv | Capability distillation |
+| [CT-OPD: Counterfactual Trace On-Policy Distillation for Diffusion Vision-Language Models](https://arxiv.org/abs/2609.32781) | 2026.09 | Arxiv | Multimodal on-policy distillation |
+| [Fine-Tuning Diffusion Language Models with Context Selection and Target Weighting](https://arxiv.org/abs/2609.38385) | 2026.09 | Arxiv | Supervised fine-tuning |
+| [Exploring More, Reasoning Better: Stepwise Risk-Sensitive GRPO for Diffusion Language Models](https://arxiv.org/abs/2610.00661) | 2026.09 | Arxiv | Stepwise risk-sensitive GRPO |
+| [IDRF: Inverse-Distilled Reward Fine-tuning of Masked Discrete Diffusion Models](https://arxiv.org/abs/2610.03641) | 2026.10 | Arxiv | Reward fine-tuning |
+| [Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models](https://arxiv.org/abs/2610.03665) | 2026.10 | Arxiv | Pivot-focused self-distillation |
+| [Stabilizing language models under continual learning via condition-anchored distillation](https://arxiv.org/abs/2610.06940) | 2026.10 | Arxiv | Continual adaptation |
+| [Towards Unbiased On-Policy Distillation for Block Diffusion Language Models](https://arxiv.org/abs/2610.05373) | 2026.10 | Arxiv | Stable on-policy distillation |
+| [Representation-Space MMD for Diffusion Language Models](https://arxiv.org/abs/2610.06648) | 2026.10 | Arxiv | MMD post-training |
+| [Enhancing Diffusion Language Models with Autoregressive Post-Training Weights](https://arxiv.org/abs/2610.08108) | 2026.10 | Arxiv | Training-free weight transfer |
 
 ---
 
@@ -330,6 +385,13 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Dependency-Aware Revocable Decoding for Efficient Diffusion Large Language Model Inference](https://arxiv.org/abs/2608.26574) | 2026.08 | Arxiv | Training-free, Remasking |
 | [Visual Information-Guided Parallel Decoding for Diffusion Multimodal Large Language Models](https://arxiv.org/abs/2608.26580) | 2026.08 | Arxiv | Unmasking order, dMLLM |
 | [Information-Guided Frontier Decoding: Contextual Utility-Driven Commitment in dMLLMs](https://arxiv.org/abs/2608.26641) | 2026.08 | EMNLP Findings | Training-free, Hallucination |
+| [From Truncation to Commitment: Persistent Context in Uniform Discrete Diffusion](https://arxiv.org/abs/2609.01043) | 2026.09 | Arxiv | Persistent-context commitment |
+| [Early-Bird Decoding: Accelerating Diffusion LLMs with Learnable Block Sizes and Parallel Sampling](https://arxiv.org/abs/2609.16450) | 2026.09 | Arxiv | Token grouping, Mask policy |
+| [Low-Confidence Remasking Traps Flexibility: Realizing Arbitrary-Order Potential for Diverse Rollouts in Diffusion LLMs](https://arxiv.org/abs/2609.34509) | 2026.09 | Arxiv | Remasking, Commitment |
+| [CoDR: Training-Free Confidence-Drift Remasking for Diffusion Language Models](https://arxiv.org/abs/2610.08833) | 2026.09 | Arxiv | Confidence-drift remasking |
+| [Reliable Parallel Decoding in Masked Diffusion Language Models](https://arxiv.org/abs/2609.36452) | 2026.09 | Arxiv | Entropy-based commitment |
+| [Fork-dLLM: Avoiding the Flexibility Trap in Diffusion Language Models](https://arxiv.org/abs/2609.39859) | 2026.09 | Arxiv | Token routing, AR fallback |
+| [Bayesian Entropy-based Reordering for Calibrated Diffusion Language Models](https://arxiv.org/abs/2610.05125) | 2026.10 | Arxiv | Bayesian token commitment |
 
 ---
 
@@ -362,6 +424,9 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Affix Cache for Diffusion Large Language Models](https://arxiv.org/abs/2608.26140) | 2026.06 | Arxiv | Serving |
 | [LaCache: Exact Caching and Precision-Adaptive Inference for Diffusion Large Language Models](https://arxiv.org/abs/2607.16339) | 2026.07 | Arxiv | Training-free, Quantization |
 | [Archer: Adaptive Reuse of Cached Hidden States for Efficient Rollback in Diffusion Language Models](https://arxiv.org/abs/2608.08086) | 2026.08 | Arxiv | Training-free |
+| [Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs](https://arxiv.org/abs/2609.26796) | 2026.09 | Arxiv | KV cache, Fused kernels |
+| [SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models](https://arxiv.org/abs/2610.04875) | 2026.10 | Arxiv | Branch-state reuse, Speculation |
+| [Mask-Guided KV Cache Eviction in Block Diffusion Language Models](https://arxiv.org/abs/2610.06996) | 2026.10 | Arxiv | KV selection and eviction |
 ### 5.2 Decoding & Sampling
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
@@ -413,7 +478,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Diffusion Language Model Parallel Decoding via Product-of-Experts Bridge](https://arxiv.org/abs/2606.08048) | 2026.06 | ICML | - |
 | [AsyncLane: Decoupling Refinement from Advancement in Diffusion Language Model Decoding](https://arxiv.org/abs/2606.08411) | 2026.06 | Arxiv | Training-free, Block diffusion |
 | [Unified Energy for Invariant and Independent Decoding in Diffusion Language Models](https://arxiv.org/abs/2606.09159) | 2026.06 | Arxiv | - |
-| [Attention-Discounted Adaptive Sampler for Masked Diffusion Language Models](https://arxiv.org/abs/2606.10829) | 2026.06 | Arxiv | Training-free |
+| [Attention-Discounted Adaptive Sampler for Masked Diffusion Language Models](https://arxiv.org/abs/2606.10829) | 2026.06 | NeurIPS | Training-free |
 | [Teaching Diffusion to Speculate Left-to-Right](https://arxiv.org/abs/2606.11552) | 2026.06 | Arxiv | Speculative decoding |
 | [Mean-Field Parallel Decoding for Discrete Diffusion Language Models](https://arxiv.org/abs/2606.15805) | 2026.06 | Arxiv | Training-free |
 | [LESS Is More: Mutual-Stability Sampling for Diffusion Language Models](https://arxiv.org/abs/2606.16908) | 2026.06 | Arxiv | Training-free, Unmasking order |
@@ -445,6 +510,12 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [ReTrace: Rejected-Trajectory Conditioning for Speculative Decoding](https://arxiv.org/abs/2608.29748) | 2026.08 | Arxiv | Speculative decoding, Code |
 | [Ceiling-Clipped Acceptance Histograms Indicate Stranded Speed-up in Block-Diffusion Speculative Decoding](https://arxiv.org/abs/2608.30427) | 2026.08 | Arxiv | Speculative decoding |
 | [CARVE: Verified Expansion for Variable-Length Generation in Diffusion Language Models](https://arxiv.org/abs/2608.30922) | 2026.08 | EMNLP Findings | Training-free, Block diffusion |
+| [PACE-dLLM: Elastic Block Decoding via Confidence Cliff Estimation for Diffusion Language Models](https://arxiv.org/abs/2609.26249) | 2026.08 | Arxiv | Elastic decoding horizon |
+| [Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models](https://arxiv.org/abs/2609.02108) | 2026.09 | EMNLP | Adaptive-length infilling |
+| [Routing by Reasoning Need: Trajectory-Aware Decoding Control for Diffusion Vision-Language Models](https://arxiv.org/abs/2609.11315) | 2026.09 | EMNLP Findings | Adaptive decoding budget |
+| [Rethinking Soft Tokens for Parallel Decoding in Diffusion Language Models](https://arxiv.org/abs/2609.37391) | 2026.09 | Arxiv | Soft-token sampling |
+| [Self-Repulsive Sampling for Diffusion Language Models](https://arxiv.org/abs/2609.39560) | 2026.09 | Arxiv | Diverse joint sampling |
+| [Adaptive Second-Order Solvers for Fast Stochastic Diffusion Sampling](https://arxiv.org/abs/2610.03034) | 2026.10 | Arxiv | Adaptive stochastic solver |
 
 ### 5.3 Distillation, Quantization & Sparsity
 | Paper Title | Year | Venue | Remark |
@@ -470,11 +541,19 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [FAIR-Calib: Frontier-Aware Instability-Reweighted Calibration for Post-Training Quantization of Diffusion Large Language Models](https://arxiv.org/abs/2606.06547) | 2026.06 | ICML | Quantization |
 | [Seeing the End at Step Zero: Accelerating Diffusion MLLMs via MLP Sparsity-Aware Truncation](https://arxiv.org/abs/2607.14557) | 2026.07 | Arxiv | Training-free, Serving |
 | [Trace-Based On-Policy Distillation for Masked Diffusion Language Models](https://arxiv.org/abs/2607.16872) | 2026.07 | Arxiv | Distillation, RL |
-| [Multi-Mask Diffusion Language Models for Few-Step Generation](https://arxiv.org/abs/2607.19686) | 2026.07 | Arxiv | Distillation, Few-step |
+| [Multi-Mask Diffusion Language Models for Few-Step Generation](https://arxiv.org/abs/2607.19686) | 2026.07 | COLM | Distillation, Few-step |
 | [Neuromorphic Diffusion Language Models: Addressing Compute and Memory Bottlenecks via Sparsity and Block Denoising](https://arxiv.org/abs/2607.24841) | 2026.07 | Arxiv | Block diffusion, Serving |
 | [REFLEX: Rethinking MoE Inference as Refinement-Aware Compute Allocation in Diffusion Language Models](https://arxiv.org/abs/2608.01784) | 2026.08 | Arxiv | MoE, Training-free |
 | [OPTD: On-Policy Transition Distillation with Consistency-Guided Adaptive Compression for Few-Step Diffusion Language Models](https://arxiv.org/abs/2608.02942) | 2026.08 | Arxiv | Distillation, Few-step |
 | [SelFusion: Self-distillation for Diffusion Language Models](https://arxiv.org/abs/2608.22898) | 2026.08 | ACL | Distillation |
+| [Temporal Self-Distillation: Faster Inference in Discrete Diffusion Language Models](https://arxiv.org/abs/2609.15177) | 2026.09 | Arxiv | Temporal distillation |
+| [Hesitation-Aware On-Policy Distillation for Diffusion Language Models](https://arxiv.org/abs/2609.33301) | 2026.09 | Arxiv | Few-step distillation |
+| [JustQuant: You Don't Need Smoothing, SVD, or Rotation for 4-Bit Activation Quantization](https://arxiv.org/abs/2609.33601) | 2026.09 | Arxiv | 4-bit activation quantization |
+| [Distribution Matching Distillation for Continuous Diffusion Language Models](https://arxiv.org/abs/2609.40235) | 2026.09 | Arxiv | Continuous diffusion distillation |
+| [ITC-MoE: Importance-guided Token-aware Compression for MoE Diffusion Language Models](https://arxiv.org/abs/2610.01296) | 2026.10 | Arxiv | MoE low-rank compression |
+| [Preserving Mathematical Reasoning in Compressed Diffusion Language Models via Trajectory-Aware Low-Rank Approximation](https://arxiv.org/abs/2610.03326) | 2026.10 | Arxiv | Trajectory-aware low-rank compression |
+| [SoloQ: Calibration-Free Quantization for Diffusion Language Models](https://arxiv.org/abs/2610.07121) | 2026.10 | Arxiv | Calibration-free 4-bit quantization |
+| [Omni-Diffusion-Distill: Few-Step Distillation of Unified Multimodal Diffusion Large Language Models](https://arxiv.org/abs/2610.10990) | 2026.10 | Arxiv | Multimodal few-step distillation |
 
 ### 5.4 Inference Frameworks & Systems
 > **New section**: production-grade frameworks and runtime engineering for dLLMs.
@@ -493,6 +572,48 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Sangam: Efficiently Serving Diffusion LLMs with the AR Stack](https://arxiv.org/abs/2607.04206) | 2026.07 | Arxiv | Serving |
 | [BlockServe: Block-Grained Continuous Batching for High-Throughput Diffusion LLM Serving](https://arxiv.org/abs/2607.08930) | 2026.07 | Arxiv | Serving |
 | [Serving Masked Diffusion LLMs: Characterization and Design Principles from Real Hardware](https://arxiv.org/abs/2608.23807) | 2026.08 | Arxiv | Serving |
+| [FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving](https://arxiv.org/abs/2608.12932) | 2026.08 | Arxiv | Backfill, Driving inference system |
+| [TailSieve: Partial-Rollout-Guided Tail Routing for LLM Rollouts](https://arxiv.org/abs/2608.22788) | 2026.08 | Arxiv | Backfill, Rollout routing |
+| [Hardware Acceleration of Block-Diffusion LLM for Edge Devices](https://arxiv.org/abs/2609.01084) | 2026.09 | Arxiv | Hardware, Block diffusion |
+| [Epoch: Compiling Diffusion Blocks for Sparse MoE Serving](https://arxiv.org/abs/2609.09748) | 2026.09 | Arxiv | MoE serving |
+| [Block Parallelism For Efficient Distributed Long-Context Diffusion Language Model Training](https://arxiv.org/abs/2609.19242) | 2026.09 | Arxiv | Distributed training |
+| [OLED-MoE: Accelerating MoE-Based dLLM Inference via Inter-Iteration Locality-Aware Expert Offloading](https://arxiv.org/abs/2609.33385) | 2026.09 | EuroSys | MoE serving, EuroSys |
+| [Faster Block-Diffusion Serving with Distribution-Free Risk Guarantees](https://arxiv.org/abs/2609.33887) | 2026.09 | Arxiv | Serving calibration |
+| [Denoising Surface: Modeling and Predicting Inference Cost for Diffusion LLM Serving](https://arxiv.org/abs/2610.00499) | 2026.09 | Arxiv | Serving scheduler |
+| [DynaTE: Accelerating Diffusion LLMs via Dynamic Token Execution](https://arxiv.org/abs/2610.11284) | 2026.10 | Arxiv | Hardware-software co-design |
+
+### 5.5 Speculative Decoding & Draft Verification
+> **Scope**: diffusion-based helper drafting, self-speculation, draft trees, and target verification/repair; AR-only speculative decoding is excluded.
+
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+| [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://arxiv.org/abs/2607.05147) | 2026.07 | Arxiv | Backfill, Confidence-scheduled drafting |
+| [From Chains to Trees: Parent-Conditioned Drafting for Semi-Autoregressive Speculative Decoding](https://arxiv.org/abs/2608.02123) | 2026.08 | Arxiv | Backfill, Parent-conditioned draft trees |
+| [Approximate Speculative Decoding](https://arxiv.org/abs/2608.03447) | 2026.08 | Arxiv | Backfill, Approximate verification |
+| [TreeSpark: Calibrated, Load-Adaptive Draft Trees for Semi-Autoregressive Speculative Decoding](https://arxiv.org/abs/2609.22098) | 2026.08 | Arxiv | Calibrated load-adaptive trees |
+| [DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees](https://arxiv.org/abs/2608.13524) | 2026.08 | Arxiv | Backfill, Diffusion draft trees |
+| [Verification-Aware Training for Speculative Decoding](https://arxiv.org/abs/2608.30135) | 2026.08 | Arxiv | Backfill, Verification-aware training |
+| [Vision Is Not Overhead: One-Pass Block Drafting for Lossless Speculative Decoding in Vision-Language Models](https://arxiv.org/abs/2609.00355) | 2026.08 | Arxiv | Multimodal diffusion drafting |
+| [DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding](https://arxiv.org/abs/2609.06498) | 2026.09 | Arxiv | Verifier-state reuse |
+| [Carryover Drafting: Recycling Rejected States for Speculative Decoding](https://arxiv.org/abs/2609.14717) | 2026.09 | Arxiv | Rejected-state recycling |
+| [H-Spec: Parallel Speculative Decoding Without a Drafter-Side KV Cache](https://arxiv.org/abs/2609.24197) | 2026.09 | Arxiv | Hybrid speculative drafter |
+| [When Parallel Drafter Meets Parallel Speculative Decoding](https://arxiv.org/abs/2609.27396) | 2026.09 | Arxiv | Overlapped draft verification |
+| [From Position Risks to Block Survival: Faster Generation for Diffusion Language Models](https://arxiv.org/abs/2609.33390) | 2026.09 | Arxiv | Draft correction |
+| [Tsubame: Tree Replay for Diffusion-Based Speculative Decoding](https://arxiv.org/abs/2609.33652) | 2026.09 | Arxiv | Speculative drafting |
+| [Reciprocal Guidance: Orchestrating Draft and Verify Budgets for Advancing the Diffusion-AR Self-Speculation Frontier](https://arxiv.org/abs/2609.34388) | 2026.09 | Arxiv | Load-aware verification |
+| [BV Loss: Block Verification-Aware Loss for Block Diffusion Speculative Decoding](https://arxiv.org/abs/2609.34832) | 2026.09 | Arxiv | Drafter training objective |
+| [Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding](https://arxiv.org/abs/2609.36173) | 2026.09 | Arxiv | Layer-wise drafter conditioning |
+| [LongSpark: Efficient speculative decoding with a fixed-cost parallel drafter](https://arxiv.org/abs/2609.37029) | 2026.09 | Arxiv | Fixed-cost diffusion drafting |
+| [DScale: Scaling Block-Diffusion Speculative Decoding with Adaptive Verification](https://arxiv.org/abs/2609.37532) | 2026.09 | Arxiv | Adaptive verification |
+| [DEdit: Iterative Draft Editing for Speculative Decoding](https://arxiv.org/abs/2609.38510) | 2026.09 | Arxiv | Iterative diffusion drafting |
+| [Recovering Off-Policy Supervision for Speculative Decoding](https://arxiv.org/abs/2609.38795) | 2026.09 | Arxiv | Off-policy drafter supervision |
+| [UBTree: Parallel Tree Drafting via Unigram and Bigram Models for Speculative Decoding](https://arxiv.org/abs/2609.39972) | 2026.09 | Arxiv | Diffusion draft trees |
+| [DRelay: Global Draft Context for Prefix-Aware Parallel Speculative Decoding Repair](https://arxiv.org/abs/2610.01439) | 2026.10 | Arxiv | Prefix-aware draft repair |
+| [SharpDraft: Accelerating Long-Context Speculative Decoding with Cardinality-Aware Query Scaling](https://arxiv.org/abs/2610.05106) | 2026.10 | Arxiv | Long-context draft attention |
+| [AdaSpark: Adaptive DSpark with Online Learning for Tree Verification and N-gram Fill](https://arxiv.org/abs/2610.05774) | 2026.10 | Arxiv | Online verification scheduling |
+| [D-Loop: Looped Diffusion Drafting for Speculative Decoding](https://arxiv.org/abs/2610.06011) | 2026.10 | Arxiv | Looped diffusion drafter |
+| [DLoop: Looped Speculative Decoding](https://arxiv.org/abs/2610.07659) | 2026.10 | Arxiv | Looped draft verification |
+| [Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds](https://arxiv.org/abs/2610.10411) | 2026.10 | Arxiv | Expected decoding rounds |
 
 ---
 
@@ -527,6 +648,11 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models](https://arxiv.org/abs/2606.19534) | 2026.06 | Arxiv | dMLLM |
 | [Concurrent Image Understanding and Generation: Self-Correcting Coupled Markov Jump Processes](https://arxiv.org/abs/2607.13188) | 2026.07 | Arxiv | Training-free, Remasking |
 | [Does More Retrieved Evidence Help Visual Retrieval-Augmented Generation with Diffusion Language Models?](https://arxiv.org/abs/2608.07006) | 2026.08 | Arxiv | Training-free, Retrieval |
+| [LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes](https://arxiv.org/abs/2609.03796) | 2026.09 | Arxiv | Unified multimodal, Image |
+| [Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding](https://arxiv.org/abs/2609.26638) | 2026.09 | Arxiv | OCR, Hybrid model |
+| [BiMoGen: Bidirectional Motion-Text Generation via Unified Masked Discrete Diffusion](https://arxiv.org/abs/2609.35407) | 2026.09 | NeurIPS | Bidirectional motion-text generation |
+| [GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed](https://arxiv.org/abs/2609.39600) | 2026.09 | Arxiv | Text and grounding generation |
+| [Gestalt: Large Multimodal Interplay Model](https://arxiv.org/abs/2610.00576) | 2026.09 | Arxiv | Unified multimodal model |
 
 
 ### 6.2 Vision-Language-Action (VLA)
@@ -540,6 +666,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [dVLA: Diffusion VLA with Multimodal Chain-of-Thought](https://arxiv.org/pdf/2509.25681) | 2025.09 | Arxiv | dLLM backbone + multimodal CoT |
 | [Dream-VLA: Open Vision-Language-Action Model with Diffusion Backbone](https://arxiv.org/abs/2512.22615) | 2025.12 | Arxiv | dVLA from Dream-7B; first dLLM pretrained VLA |
 | [MMaDA-VLA: Large Diffusion VLA with Unified Multi-Modal Instruction and Generation](https://arxiv.org/abs/2603.25406) | 2026.03 | Arxiv | Native discrete-diffusion VLA from MMaDA |
+| [Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model](https://arxiv.org/abs/2609.13053) | 2026.09 | Arxiv | VLA, Diffused language branch |
 
 **(b) Discrete-diffusion action decoding** — language backbone may still be AR-VLM, but action chunks are decoded via discrete diffusion. Closely tied to dLLM literature for inference techniques.
 
@@ -547,6 +674,9 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | :--- | :---: | :---: | :--- |
 | [Discrete Diffusion VLA: Action Decoding in VLA Policies](https://arxiv.org/abs/2508.20072) | 2025.08 | ICML | Unified-transformer + discrete-diffusion actions |
 | [E0: Enhancing Generalization and Fine-Grained Control in VLA Models via Tweedie Discrete Diffusion](https://arxiv.org/abs/2511.21542) | 2025.11 | Arxiv | AR-VLM backbone + Tweedie discrete diffusion on action tokens |
+| [TBD-VLA: Temporal Block Diffusion Vision Language Action Model](https://arxiv.org/abs/2606.07895) | 2026.06 | Arxiv | Backfill, Discrete action tokens, Temporal blocks |
+| [Humanoid Loco-Manipulation With Discrete VLA Model](https://arxiv.org/abs/2609.35709) | 2026.09 | Arxiv | Discrete action tokens, Humanoid |
+| [SUAVE: Unified Video-Action Models via Masked Diffusion](https://arxiv.org/abs/2610.04009) | 2026.10 | Arxiv | Masked discrete video-action model |
 
 ### 6.3 Autonomous Driving / World Models
 > **Scope note**: works that apply *discrete diffusion / masked-diffusion language modeling* to driving trajectories, action codebooks, or tokenized world states. Continuous trajectory-diffusion planners (e.g., classical Diffusion Policy applied to driving) are out of scope.
@@ -557,6 +687,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [ReflectDrive: Discrete Diffusion for Reflective Vision-Language-Action Models in Autonomous Driving](https://arxiv.org/abs/2509.20109) | 2025.09 | Arxiv | dLLM finetuned on discretized 2D driving space |
 | [Efficient and Explainable End-to-End Autonomous Driving via Masked Vision-Language-Action Diffusion](https://arxiv.org/abs/2602.20577) | 2026.02 | Arxiv | Discrete action codebook + masked diffusion |
 | [Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving](https://arxiv.org/abs/2605.23163) | 2026.05 | Arxiv | Block-diffusion VLA, speculative scaffold decoding |
+| [WAM-Diff2: Hierarchical AR-to-Diffusion Distillation for Highly Efficient Autonomous Driving VLA](https://arxiv.org/abs/2608.01035) | 2026.08 | Arxiv | Backfill, Driving VLA, AR-to-diffusion distillation |
 
 ---
 
@@ -568,6 +699,10 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [The Bitter Lesson of Diffusion Language Models for Agentic Workflows: A Comprehensive Reality Check](https://arxiv.org/abs/2601.12979) | 2026.01 | Arxiv | Embodied + tool-call eval |
 | [Agents of Diffusion: Enhancing Diffusion Language Models with Multi-Agent Reinforcement Learning for Structured Data Generation](https://arxiv.org/abs/2601.07152) | 2026.01 | Arxiv | Multi-agent RL |
 | [DLLM Agent: See Farther, Run Faster](https://arxiv.org/abs/2602.07451) | 2026.02 | Arxiv | dLLM-as-agent comparison |
+| [Continuous Interaction Diffusion: A Diffusion-Native Runtime for Asynchronous Tool-Augmented Reasoning](https://arxiv.org/abs/2608.10438) | 2026.08 | Arxiv | Backfill, Conceptual tool runtime |
+| [LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents](https://arxiv.org/abs/2609.13287) | 2026.09 | Arxiv | GUI agent |
+| [Does This Action Still Explain the Task? Reverse Scoring for Diffusion Language Model Agents](https://arxiv.org/abs/2609.38536) | 2026.09 | Arxiv | Agentic generation, Reflection |
+| [Plan-and-Patch: Diffusion Language Models for Agentic Planning](https://arxiv.org/abs/2610.10786) | 2026.10 | Arxiv | Agentic plan repair |
 
 ---
 
@@ -620,17 +755,42 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models](https://arxiv.org/abs/2607.24763) | 2026.06 | Arxiv | Remasking, Unmasking order |
 | [Where Quality Breaks in Compressed Short-Text Generation: Staged Bottleneck Localization](https://arxiv.org/abs/2607.24176) | 2026.07 | FRUCT | Staged codec-vs-generation bottleneck diagnosis; [project](https://aogavrilov.com/publications/where-quality-breaks/) |
 | [Low Perplexity is Repetition: A One-Dimensional Self-Conditioning Attractor in Continuous Diffusion LMs](https://arxiv.org/abs/2607.00588) | 2026.07 | Arxiv | A One-Dimensional Self-Conditioning Attractor in Continuous |
-| [Subliminal Clocks: Latent Time Modelling in Diffusion Language Models](https://arxiv.org/abs/2607.01774) | 2026.07 | Arxiv | Latent Time Modelling in Diffusion Language |
+| [Subliminal Clocks: Latent Time Modelling in Diffusion Language Models](https://arxiv.org/abs/2607.01774) | 2026.07 | EMNLP | Latent Time Modelling in Diffusion Language |
 | [Accepted Prefixes Are Not All You Need: A Negative Result on PEFT-Based Block-Diffusion Drafting](https://arxiv.org/abs/2607.12422) | 2026.07 | Arxiv | Speculative decoding |
 | [Induction in Both Directions: A Mechanistic Analysis of In-Context Learning in Masked Diffusion Language Models](https://arxiv.org/abs/2607.15893) | 2026.07 | Arxiv | A Mechanistic Analysis of In-Context Learning |
 | [Beyond the Bidirectional Promise: Re-evaluating the Robustness of Diffusion Language Models](https://arxiv.org/abs/2607.27386) | 2026.07 | Arxiv | Safety attack |
 | [Faster but Different: Diagnosing and Controlling Content Drift in Accelerated Multimodal Diffusion Language Models](https://arxiv.org/abs/2607.29079) | 2026.07 | Arxiv | Training-free, KV cache |
+| [What Does a Discrete Diffusion Model Learn?](https://arxiv.org/abs/2607.05381) | 2026.07 | Arxiv | Backfill, Discrete diffusion theory |
 | [Answer First, Reason Later: When Commitment Order Costs Accuracy in Diffusion Language Models](https://arxiv.org/abs/2608.05687) | 2026.08 | Arxiv | When Commitment Order Costs Accuracy in |
 | [Lost in Interpolation: Why Predictive Feedback Fails in Diffusion Language Models](https://arxiv.org/abs/2608.06529) | 2026.08 | Arxiv | Why Predictive Feedback Fails in Diffusion |
 | [Scaling Inherently Interpretable Language Models](https://arxiv.org/abs/2608.07594) | 2026.08 | Arxiv | - |
 | [Unsure but Certain: Uncovering the Representation-Confidence Gap in Diffusion Language Models](https://arxiv.org/abs/2608.08791) | 2026.08 | Arxiv | Uncovering the Representation-Confidence Gap in Diffusion |
 | [Minimax Optimality of Score-Entropy Discrete Diffusion](https://arxiv.org/abs/2608.20635) | 2026.08 | Arxiv | - |
 | [Conditional Total Correlation and the Serial Depth of Adaptive Parallel Sampling](https://arxiv.org/abs/2608.25505) | 2026.08 | Arxiv | - |
+| [Separating quantum circuits from classical LLMs](https://arxiv.org/abs/2608.03962) | 2026.08 | Arxiv | Backfill, Quantum complexity |
+| [Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting](https://arxiv.org/abs/2608.27339) | 2026.08 | Arxiv | Backfill, Drafting information floors |
+| [Reliability Challenges in Diffusion Vision-Language Models](https://arxiv.org/abs/2609.01318) | 2026.09 | Arxiv | Multimodal reliability evaluation |
+| [Evaluating Losslessness in Speculative Decoding Under Finite-Precision Inference](https://arxiv.org/abs/2609.15504) | 2026.09 | Arxiv | Finite-precision analysis |
+| [What does FFN compression change downstream? Same-state causal restoration in diffusion language models](https://arxiv.org/abs/2609.31685) | 2026.09 | Arxiv | FFN causal diagnosis |
+| [Parallelism, critical windows, and separations among diffusion language models](https://arxiv.org/abs/2609.20539) | 2026.09 | Arxiv | Parallelism theory |
+| [Limits of Confidence in Diffusion](https://arxiv.org/abs/2609.20581) | 2026.09 | Arxiv | Confidence and dependence theory |
+| [Schedule optimization for tau-leaping in masked discrete diffusion](https://arxiv.org/abs/2609.21960) | 2026.09 | Arxiv | Tau-leaping theory |
+| [Optimizers for Diffusion Models: A Controlled Benchmark](https://arxiv.org/abs/2609.23055) | 2026.09 | Arxiv | Optimizer benchmark |
+| [Why Jailbreaks Succeed in Diffusion Language Models: An Energy Landscape Analysis](https://arxiv.org/abs/2609.30841) | 2026.09 | Arxiv | Safety landscape analysis |
+| [Does Uniform Discrete Diffusion Need Time?](https://arxiv.org/abs/2609.30977) | 2026.09 | Arxiv | Uniform-diffusion time analysis |
+| [The Detectability Gap: Hidden Heterogeneity in Hallucination Detection Across Language Models](https://arxiv.org/abs/2609.35860) | 2026.09 | NeurIPS Workshop | Detectability analysis |
+| [Unmask the State: When Does State Adaptation Matter for Masked Diffusion Language Models](https://arxiv.org/abs/2609.33355) | 2026.09 | Arxiv | Denoising-state analysis |
+| [Simple Diffusion Language Models Are More Effective Few-Step Generators Than Reported](https://arxiv.org/abs/2609.33947) | 2026.09 | Arxiv | Few-step evaluation |
+| [Before the Token Commits: Trajectory-Level Benchmarking of Visual Hallucinations in Diffusion VLMs](https://arxiv.org/abs/2609.34772) | 2026.09 | Arxiv | Multimodal hallucination analysis |
+| [Why Deterministic PRM Guidance Underperforms in Discrete Diffusion Reasoning](https://arxiv.org/abs/2609.35472) | 2026.09 | NeurIPS | Compute-matched guidance evaluation |
+| [A Heckler in the Hidden State: Correctness Signals in Diffusion Language Models](https://arxiv.org/abs/2609.36783) | 2026.09 | Arxiv | Code correctness probes |
+| [How Should Diffusion Language Models Edit Code?](https://arxiv.org/abs/2609.38257) | 2026.09 | Arxiv | Code editing evaluation |
+| [Two Clocks in Diffusion MLLMs: When Answers Stabilize Before Rationales Unfold](https://arxiv.org/abs/2610.00953) | 2026.10 | Arxiv | Multimodal commitment analysis |
+| [Temporally-Resolved Token Attribution Reveals the Generation Dynamics of Diffusion Language Models](https://arxiv.org/abs/2610.01177) | 2026.10 | Arxiv | Token attribution |
+| [SOL: Measuring Gaps between Text Distributions by Double Sliced Wasserstein Metrics](https://arxiv.org/abs/2610.06513) | 2026.10 | Arxiv | Text-distribution evaluation |
+| [Uniform Discrete Diffusion Models are Minimax Optimal for Estimating Distributions with Small Effective Support Size](https://arxiv.org/abs/2610.07655) | 2026.10 | Arxiv | Uniform-diffusion minimax theory |
+| [Disentangling Paradigm, Identifier, and Decoding in Generative Retrieval](https://arxiv.org/abs/2610.08716) | 2026.10 | Arxiv | Controlled retrieval comparison |
+| [The Lattice of Transition Laws](https://arxiv.org/abs/2610.11216) | 2026.10 | Arxiv | Transition-law theory |
 
 ### 8.2 Guidance & Downstream Applications
 | Paper Title | Year | Venue | Remark |
@@ -680,7 +840,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Constrained Code Generation with Discrete Diffusion](https://arxiv.org/abs/2605.16829) | 2026.05 | Arxiv | Neurosymbolic constrained code generation |
 | [Prompt Compression in Diffusion Large Language Models: Evaluating LLMLingua-2 on LLaDA](https://arxiv.org/abs/2605.17932) | 2026.05 | Arxiv | Prompt compression study |
 | [Machine Unlearning for Masked Diffusion Language Models](https://arxiv.org/abs/2605.18253) | 2026.05 | Arxiv | MDU, unlearning framework |
-| [Knowledge Editing in Masked Diffusion Language Models](https://arxiv.org/abs/2606.03924) | 2026.06 | Arxiv | Unmasking order, Knowledge editing |
+| [Knowledge Editing in Masked Diffusion Language Models](https://arxiv.org/abs/2606.03924) | 2026.06 | EMNLP | Unmasking order, Knowledge editing |
 | [MaskForge: Structure-Aware Adaptive Attacks for Jailbreaking Diffusion Large Language Models](https://arxiv.org/abs/2606.04027) | 2026.06 | Arxiv | Safety attack |
 | [Global Sketch-Based Watermarking for Diffusion Language Models](https://arxiv.org/abs/2606.04486) | 2026.06 | Arxiv | Watermarking |
 | [Dynamic Infilling Anchors for Format-Constrained Generation in Diffusion Large Language Models](https://arxiv.org/abs/2606.04535) | 2026.06 | ACL | Training-free |
@@ -707,6 +867,29 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields](https://arxiv.org/abs/2608.20839) | 2026.08 | EMNLP Findings | Watermarking, Unmasking order |
 | [Length-Adaptive Decoding for Masked Diffusion Machine Translation](https://arxiv.org/abs/2608.22274) | 2026.08 | EMNLP | Training-free, Unmasking order |
 | [DRRG: A Discrete Diffusion Framework for Radiology Report Generation](https://arxiv.org/abs/2608.24105) | 2026.08 | Arxiv | Clinical |
+| [Wiener Representation Filtering for VLM Hallucination Suppression](https://arxiv.org/abs/2608.08167) | 2026.08 | Arxiv | Backfill, Hallucination suppression |
+| [BiGraph-Diffuse: A Bidirectional Diffusion Language Model with Graph-Structured Retrieval For Mental Health Counseling](https://arxiv.org/abs/2609.29519) | 2026.08 | Arxiv | Counseling, Graph retrieval |
+| [Weak Ties, Strong Signals: Efficient Training Data Detection in Diffusion LLMs via Independent Token Sampling](https://arxiv.org/abs/2609.22145) | 2026.08 | Arxiv | Training-data detection |
+| [DiffPDE: Masked Diffusion Language Models as PDE Solver](https://arxiv.org/abs/2608.30532) | 2026.08 | Arxiv | Backfill, PDE code repair |
+| [Beyond Token Positions: Safety Alignment Across Denoising Steps in Diffusion Language Models](https://arxiv.org/abs/2609.00495) | 2026.08 | EMNLP | Training-free safety commitment |
+| [Membership Inference in Fine-tuned Diffusion Language Models via Token-level Memorization Asymmetry](https://arxiv.org/abs/2609.00873) | 2026.09 | Arxiv | Membership inference |
+| [DIVA: Exploiting Cross-Step Conditional Propagation for Visual Jailbreaks in Discrete Diffusion Vision-Language Models](https://arxiv.org/abs/2609.05525) | 2026.09 | EMNLP | Safety, Jailbreak |
+| [In-Place Instruction Following in Diffusion Language Models](https://arxiv.org/abs/2609.07160) | 2026.09 | Arxiv | Controllable generation |
+| [Decomposition-Guided Diffusion Language Models for Inertial Confinement Fusion Prediction](https://arxiv.org/abs/2609.07756) | 2026.09 | Arxiv | LLaDA-based scientific prediction |
+| [DenMark: Robust Semantic Watermarking for Diffusion Language Models](https://arxiv.org/abs/2609.14257) | 2026.09 | Arxiv | Semantic watermarking |
+| [Efficient One-to-Many Translation with Joint Multi-Stream Diffusion](https://arxiv.org/abs/2609.16312) | 2026.09 | Arxiv | Machine translation |
+| [How to Guide Your Language Flow](https://arxiv.org/abs/2609.19356) | 2026.09 | Arxiv | Continuous-text guidance |
+| [The Temporal Tug-of-War: Visualizing and Detecting RAG Conflicts in Diffusion Models via Trajectory Variance](https://arxiv.org/abs/2609.31684) | 2026.09 | EMNLP Workshop | RAG conflict detection |
+| [LADDER: Graph-Guided Diffusion Language Models for Efficient Multi-Hop Reasoning](https://arxiv.org/abs/2609.24346) | 2026.09 | Arxiv | Graph retrieval guidance |
+| [Constraints Are Graphs, Not Chains: Exact Decoding for Diffusion Language Models](https://arxiv.org/abs/2609.32900) | 2026.09 | Arxiv | Constraint guidance |
+| [Safety Reconstructed: Generative Modeling via Masked Diffusion Builds Strong Safety Guardrails](https://arxiv.org/abs/2609.33634) | 2026.09 | Arxiv | Safety, Prompt rewriting |
+| [One Sequence, Many Decodings: CAGenMol-2 Recasts Drug Design as Masked Molecular Inference](https://arxiv.org/abs/2609.34301) | 2026.09 | Arxiv | Molecular text generation |
+| [TANGO: Watermarking Masked Diffusion Language Models in Token Pairs](https://arxiv.org/abs/2609.35224) | 2026.09 | Arxiv | Watermarking |
+| [Twist, Don't Tilt: Trajectory-Exact Constrained Decoding for Masked Diffusion Models](https://arxiv.org/abs/2609.35609) | 2026.09 | Arxiv | Constraint guidance |
+| [Grab a Coffee: Future-Aware Guidance for Discrete Diffusion with Compiled Objectives](https://arxiv.org/abs/2609.35924) | 2026.09 | Arxiv | Compiled constraint guidance |
+| [FastGuide: Accelerating Reward Guidance for Diffusion Large Language Models](https://arxiv.org/abs/2609.36202) | 2026.09 | Arxiv | Reward guidance |
+| [HyperZip: Efficient Data Compression through Personalized Diffusion LLMs with Hypernetworks](https://arxiv.org/abs/2609.36357) | 2026.09 | Arxiv | Lossless data compression |
+| [Noise Out, Bias In: Targeted Bias Injection in Diffusion Language Models via Closed-Loop Activation Steering](https://arxiv.org/abs/2610.05894) | 2026.10 | Arxiv | Safety, Activation steering |
 
 ---
 
