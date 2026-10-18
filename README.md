@@ -724,7 +724,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Diffusion LLMs Know the Answer Before Decoding](https://arxiv.org/abs/2508.19982) | 2025.08 | Arxiv | Semantic focus |
 | [What Makes Diffusion Language Models Super Data Learners?](https://arxiv.org/pdf/2510.04071) | 2025.10 | Arxiv | Data efficiency |
 | [Why mask diffusion does not work](https://arxiv.org/pdf/2510.03289) | 2025.10 | Arxiv | Failure analysis |
-| [Empirical Analysis of Decoding Biases in Masked Diffusion Models](https://arxiv.org/abs/2508.13021v3) | 2025.10 | Arxiv | Decoding Bias |
+| [Empirical Analysis of Decoding Biases in Masked Diffusion Models](https://arxiv.org/abs/2508.13021) | 2025.10 | ACL | Decoding Bias, UNCODE (formerly PC-Sampler) |
 | [Beyond Next-Token Prediction: A Performance Characterization of Diffusion versus Autoregressive Language Models](https://arxiv.org/abs/2510.04146v1) | 2025.10 | Arxiv | Speed Analysis |
 | [On the Role of Discreteness in Diffusion LLMs](https://arxiv.org/abs/2512.22630v1) | 2025.12 | Arxiv | Speed Analysis |
 | [ParallelBench: Understanding the Trade-offs of Parallel Decoding in Diffusion LLMs](https://arxiv.org/abs/2510.04767) | 2025.10 | ICLR |  |
