@@ -351,6 +351,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [Review, Remask, Refine (R3): Process-Guided Block Diffusion](https://arxiv.org/pdf/2507.08018v1) | 2025.07 | ICML MOSS | >7B, Block-wise |
 | [Any-Order Flexible Length Masked Diffusion](https://arxiv.org/pdf/2509.01025) | 2025.09 | Arxiv | <7B, Order Flexibility |
 | [Don't Settle Too Early: Self-Reflective Remasking for Diffusion Language Models](https://arxiv.org/abs/2509.23653v1) | 2025.09 | Arxiv | >7B, Remasking |
+| [Unlocking the Potential of Diffusion Language Models through Template Infilling](https://arxiv.org/abs/2510.13870) | 2025.10 | ACL 2026 Oral | Template-then-fill generation; [code](https://github.com/JunHoo-Lee/Template-Infilling) |
 | [Don't Let It Fade: Preserving Edits via Token Timestep Allocation](https://arxiv.org/abs/2510.26200) | 2025.10 | NeurIPS | <7B, Edit preservation |
 | [Finish First, Perfect Later: Test-Time Token-Level Cross-Validation for Diffusion Large Language Models](https://arxiv.org/abs/2510.05090v1) | 2025.10 | Arxiv | >7B, Unmasking |
 | [Improving Discrete Diffusion Unmasking Policies Beyond Explicit Reference Policies](https://arxiv.org/abs/2510.05725) | 2025.10 | ICLR | >7B, Unmasking |
