@@ -418,6 +418,7 @@ A comprehensive and structured list of research papers about **Large-Language-Di
 | [DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention](https://arxiv.org/abs/2603.08026) | 2026.03 | ICML | Saliency-based partial attention |
 | [EntropyCache: Decoded Token Entropy Guided KV Caching for Diffusion Language Models](https://arxiv.org/abs/2603.18489) | 2026.03 | Arxiv | Entropy-guided KV cache refresh |
 | [LoSA: Locality Aware Sparse Attention for Block-Wise Diffusion Language Models](https://arxiv.org/abs/2604.12056) | 2026.04 | Arxiv | Locality-aware sparse KV, block dLLM |
+| [Polestar: Drift-Aware Cache Calibration and Token Commitment for Efficient Inference of Diffusion LLMs](https://arxiv.org/abs/2607.14107) | 2026.05 | NeurIPS | Training-free, drift-aware KV-cache calibration and early token commitment; [Code](https://github.com/gt-synergy-lab/Polestar) |
 | [PulseCol: Periodically Refreshed Column-Sparse Attention for Accelerating Diffusion Language Models](https://arxiv.org/abs/2605.20813) | 2026.05 | Arxiv | Column-sparse attention, periodic refresh |
 | [Fast-dLLM++: Fréchet Profile Decoding for Faster Diffusion LLM Inference](https://arxiv.org/abs/2606.02955)| 2026.06 | ICML Workshop |  |
 | [Prefilling-dLLM: Predictive Prefilling for Long-Context Inference in Diffusion Language Models](https://arxiv.org/abs/2606.10537) | 2026.06 | EMNLP | Training-free, Long context |
